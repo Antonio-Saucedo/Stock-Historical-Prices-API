@@ -5,14 +5,14 @@
     "version": "1.0.0",
     "description": ""
   },
-  "host": "stock-historical-prices-v1.onrender.com",
+  "host": "localhost:8080",
   "basePath": "/",
   "tags": [
     {
       "name": "Stocks"
     }
   ],
-  "schemes": ["https"],
+  "schemes": ["http"],
   "paths": {
     "/api/stock": {
       "get": {

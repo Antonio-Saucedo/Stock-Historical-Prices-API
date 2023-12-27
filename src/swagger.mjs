@@ -5,8 +5,8 @@ const doc = {
     title: "Stock Historical Prices API",
     version: "1.0.0",
   },
-  host: "stock-historical-prices-v1.onrender.com",
-  schemes: ["https"],
+  host: "localhost:8080",
+  schemes: ["http"],
   tags: [
     {
       name: "Stocks",
