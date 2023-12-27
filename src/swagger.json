@@ -5,13 +5,20 @@
     "version": "1.0.0",
     "description": ""
   },
-  "host": "localhost:8080",
+  "host": "stock-historical-prices-v1.onrender.com",
   "basePath": "/",
-  "schemes": ["http"],
+  "tags": [
+    {
+      "name": "Stocks"
+    }
+  ],
+  "schemes": ["https"],
   "paths": {
     "/api/stock": {
       "get": {
-        "description": "",
+        "tags": ["Stocks"],
+        "summary": "Get historical stock prices for your stocks",
+        "description": "Enter your stock ticker symbol and key",
         "parameters": [
           {
             "name": "stock",

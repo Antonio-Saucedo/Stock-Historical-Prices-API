@@ -1,2 +1,5 @@
 ###
 GET http://localhost:8080/api/stock?stock=mrna&key=1234
+
+###
+GET https://stock-historical-prices-v1.onrender.com/api/stock?stock=mrna&key=1234

@@ -5,8 +5,13 @@ const doc = {
     title: "Stock Historical Prices API",
     version: "1.0.0",
   },
-  host: "localhost:8080",
-  schemes: ["http"],
+  host: "stock-historical-prices-v1.onrender.com",
+  schemes: ["https"],
+  tags: [
+    {
+      name: "Stocks",
+    },
+  ],
 };
 
 const outputFile = "./swagger.json";
